@@ -7,12 +7,12 @@
 
 # Jobsheet 2 Object
 
-## 2.1.2 Hasil Running
+## 2.1.1 Hasil Running
 Hasilnya menunjukan bahwa program tsb tidak dpt dirun karena tidak aja main classnya
 
 ![Screenshot](image/mahasiswa27.png)
 
-### 2.1.3 Pertanyaan
+### 2.1.2 Pertanyaan
 - I.  dua karakteristik class atau object adalah atribut dan method/fungsi
 - II. pada class Mahasiswa memiliki 4 atribut yaitu String nama; String nim; String kelas; double ipk;
 - III. ada 4 method, yaitu tampilkanInformasi(): void; ubahKelas(kelasBaru: String): void; updateIpk(ipkBaru: double): void; nilaiKinerja(ipk: double): String
@@ -22,3 +22,12 @@ Modifikasi kode program
 - V.  method nilaiKinerja() bekerja dengan cara mengecek kondisi nilai IPK (>= 3.5 kinerja sangat baik, >=3.0 kinerja baik, >=2.0 kinerja cukup, dan <2.0 kinerja kurang).      Method nilaiKinerja() mengembalikan nilai bertipe String berupa kategori kinerja mahasiswa.
 
 ## 2.2.1. Hasil Running
+Hasilnya program dapat dijalankan
+
+![Screenshot](image/mahasiswamain27.png)
+
+### 2.2.2 Pertanyaan
+- I.   Baris ke-5
+- II.  Menggunakan dot notation (titik), yaitu namaObjek.atribut atau namaObjek.method().
+- III. Karena sebelum pemanggilan tampilkanInformasi() yang kedua, ada dua method yang mengubah nilai atribut objek mhs1:
+
