@@ -43,5 +43,8 @@ Hasil program dapat dijalankan
 - IV.  Update Kode: 
 ![Screenshot](image/apdetmahasiswamain27pertanyaan.png)
 
-## 2.4.1 Hasil Running TUGASSSS
+## 2.4.1 Hasil Running TUGAS 1
 ![Screenshot](image/tugas1.png)
+
+## 2.5.1 Hasil Running TUGAS 2
+![Screenshot](image/tugas2.png)
