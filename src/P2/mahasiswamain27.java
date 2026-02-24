@@ -12,5 +12,12 @@ public class mahasiswamain27 {
         mhs1.ubahKelas("SI-2K");
         mhs1.ubahIpk(3.6);
         mhs1.tampilkanInformasi();
+
+        Mahasiswa27 mhs2 = new Mahasiswa27("Annisa Nabila", "2241720172", 3.25, "TI-2L");
+        mhs2.updateIpk(3.30);
+        mhs2.tampilkanInformasi();
+        
+        Mahasiswa27 mhsDaffa = new Mahasiswa27("Daffa", "2241720173", 2.8, "SI-2M");
+        mhsDaffa.tampilkanInformasi();
     }
 }

@@ -31,3 +31,16 @@ Hasilnya program dapat dijalankan
 - II.  Menggunakan dot notation (titik), yaitu namaObjek.atribut atau namaObjek.method().
 - III. Karena sebelum pemanggilan tampilkanInformasi() yang kedua, ada dua method yang mengubah nilai atribut objek mhs1:
 
+## 2.3.1 Hasil Running
+Hasil program dapat dijalankan
+
+![Screenshot](image/apdetmahasiswamain27.png)
+
+### 2.3.2 
+- I.   Baris Ke-9
+- II.  Memberikan nilai pada variable yang sudah disediakan  
+- III. program tidak dapat dijalankan karena objek dibuat tanpa parameter, sementara konstruktor tanpa parameter sudah dihapus
+- IV.  Update Kode: 
+![Screenshot](image/apdetmahasiswamain27.png)
+
+## 2.4.1    
