@@ -41,6 +41,6 @@ Hasil program dapat dijalankan
 - II.  Memberikan nilai pada variable yang sudah disediakan  
 - III. program tidak dapat dijalankan karena objek dibuat tanpa parameter, sementara konstruktor tanpa parameter sudah dihapus
 - IV.  Update Kode: 
-![Screenshot](image/apdetmahasiswamain27.png)
+![Screenshot](image/apdetmahasiswamain27pertanyaan.png)
 
-## 2.4.1    
+## 2.4.1
