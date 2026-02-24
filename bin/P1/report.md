@@ -11,7 +11,7 @@
 
 Solusi dari penerapan di Pemilihan.java, dan dibawah ini adalah gambar dari hasilnya
 
-![HASIL](image/pemilihan.png)
+![Screenshot](image/pemilihan.png)
 
 ## 1.2. Solusi Perulangan
 
