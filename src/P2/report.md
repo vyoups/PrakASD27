@@ -14,6 +14,6 @@ Solusi dari penerapan di mahasiswa27.java, dan dibawah ini adalah gambar dari ha
 ![Screenshot](image/mahasiswa27.png)
 
 ## 2.1.3 Pertanyaan
-- 1. dua karakteristik class atau object adalah atribut dan method/fungsi
+- I. dua karakteristik class atau object adalah atribut dan method/fungsi
 
 ## 2.2.1. Solusi Perulangan
