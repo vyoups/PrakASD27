@@ -37,3 +37,10 @@ Pemisahan ini membuat kode lebih **terorganisir, mudah dipelihara, dan dapat dig
 
 ---
 
+## Hasil Running Praktikum ke-2
+Hasil Menunjukan program bisa dijalankan dengan normal
+
+![Screenshot](image/mahasiswa27demolagi.png)
+
+## Pertanyaan praktikum ke-2
+2. Kode tersebut menyebabkan **NullPointerException** karena setelah `new Mahasiswa[3]`, array sudah dibuat tetapi setiap elemennya masih bernilai `null`. Untuk mengakses atribut `.nim`, terlebih dahulu harus dilakukan instansiasi objek di indeks tersebut
