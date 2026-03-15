@@ -44,3 +44,50 @@ Hasil Menunjukan program bisa dijalankan dengan normal
 
 ## Pertanyaan praktikum ke-2
 2. Kode tersebut menyebabkan **NullPointerException** karena setelah `new Mahasiswa[3]`, array sudah dibuat tetapi setiap elemennya masih bernilai `null`. Untuk mengakses atribut `.nim`, terlebih dahulu harus dilakukan instansiasi objek di indeks tersebut
+
+---
+
+## Hasil Runnng Praktikum ke-3
+Hasil Menunjukan program bisa dijalankan dengan normal
+
+![Screenshot](image/matakuliah27.png)
+
+## Pertanyaan praktikum ke-3
+1. **Ya**, bisa. Ini disebut **Constructor Overloading**. Contoh:
+```java
+public class Matakuliah {
+    public String kode;
+    public String nama;
+    public int sks;
+    public int jumlahJam;
+
+    // Constructor tanpa parameter (default)
+    public Matakuliah() {
+        this.kode = "-";
+        this.nama = "-";
+        this.sks = 0;
+        this.jumlahJam = 0;
+    }
+
+    // Constructor berparameter penuh
+    public Matakuliah(String kode, String nama, int sks, int jumlahJam) {
+        this.kode = kode;
+        this.nama = nama;
+        this.sks = sks;
+        this.jumlahJam = jumlahJam;
+    }
+
+    // Constructor berparameter sebagian
+    public Matakuliah(String kode, String nama) {
+        this.kode = kode;
+        this.nama = nama;
+        this.sks = 2;       // nilai default
+        this.jumlahJam = 4; // nilai default
+    }
+}
+```
+Java membedakan konstruktor berdasarkan jumlah dan tipe parameternya.
+
+---
+
+## Hasil Running Tugas
