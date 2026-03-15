@@ -91,3 +91,4 @@ Java membedakan konstruktor berdasarkan jumlah dan tipe parameternya.
 ---
 
 ## Hasil Running Tugas
+![Screenshot](image/dosen27.png)
