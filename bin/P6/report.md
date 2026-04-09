@@ -33,3 +33,14 @@ Hasilnya menunjukan program dapat dijalankan
 Hasilnya menunjukan program dapat dijalankan
 
 ![Screenshot](image/praktikum2.png)
+
+## Jawaban dari pertanyaan praktikum ke-2
+1 A. Karena pada setiap tahap bubble sort, elemen terbesar sudah "menggelembung" ke posisi akhir, sehingga iterasi terakhir tidak perlu dilakukan.
+
+1 B. Karena setelah i tahap, sudah ada i elemen yang sudah berada di posisi akhir yang benar, jadi tidak perlu dibandingkan lagi.
+
+1 C. Jika data 50 elemen, perulangan i berlangsung 49 kali (50-1), dan ada 49 tahap bubble sort.
+
+---
+
+2. Untuk descending, ubah kondisi while menjadi: while (j > 0 && listMhs[j-1].ipk < temp.ipk) (ganti > menjadi <).
