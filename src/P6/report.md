@@ -61,3 +61,9 @@ Hasilnya menunjukan program dapat dijalankan
 Hasilnya menunjukan program dapat dijalankan
 
 ![Screenshot](image/praktikum4.png)
+
+## Jawaban dari pertanyaan praktikum ke-4
+1. ![Screenshot](image/pertanyaan1praktikum4.png)
+
+
+---
