@@ -43,4 +43,16 @@ Hasilnya menunjukan program dapat dijalankan
 
 ---
 
-2. Untuk descending, ubah kondisi while menjadi: while (j > 0 && listMhs[j-1].ipk < temp.ipk) (ganti > menjadi <).
+2. 
+
+---
+
+## Hasil Running Praktikum ke-3
+Hasilnya menunjukan program dapat dijalankan
+
+![Screenshot](image/praktikum3.png)
+
+## Jawaban dari pertanyaan praktikum ke-1
+1. 
+
+---

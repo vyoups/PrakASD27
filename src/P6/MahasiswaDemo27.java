@@ -1,27 +1,38 @@
 package P6;
 
+import java.util.Scanner;
+
 public class MahasiswaDemo27 {
     public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         MahasiswaBerprestasi27 list = new MahasiswaBerprestasi27();
-        Mahasiswa27 m1 = new Mahasiswa27("123", "Zidan", "2A", 3.2);
-        Mahasiswa27 m2 = new Mahasiswa27("124", "Ayu", "2A", 3.5);
-        Mahasiswa27 m3 = new Mahasiswa27("125", "Sofi", "2A", 3.1);
-        Mahasiswa27 m4 = new Mahasiswa27("126", "Sita", "2A", 3.9);
-        Mahasiswa27 m5 = new Mahasiswa27("127", "Miki", "2A", 3.7);
 
-        list.tambah(m1);
-        list.tambah(m2);
-        list.tambah(m3);
-        list.tambah(m4);
-        list.tambah(m5);
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumlah = sc.nextInt();
+        sc.nextLine();
 
+        for (int i = 1; i <= jumlah; i++) {
+            System.out.println("--- Mahasiswa ke-" + i + " ---");
+            System.out.print("NIM   : ");
+            String nim = sc.nextLine();
+            System.out.print("Nama  : ");
+            String nama = sc.nextLine();
+            System.out.print("Kelas : ");
+            String kelas = sc.nextLine();
+            System.out.print("IPK   : ");
+            double ipk = sc.nextDouble();
+            sc.nextLine();
 
-        System.out.println("Data sebelum sorting : ");
+            list.tambah(new Mahasiswa27(nim, nama, kelas, ipk));
+        }
+
+        System.out.println("\nData sebelum sorting : ");
         list.tampil();
 
         list.bubbleSort();
-
-        System.out.println("Data setelah sorting : ");
+        System.out.println("Data setelah Bubble Sort (DESC) : ");
         list.tampil();
+
+        sc.close();
     }
 }
