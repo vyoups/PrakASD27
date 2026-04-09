@@ -33,6 +33,10 @@ public class MahasiswaDemo27 {
         System.out.println("Data setelah Bubble Sort (DESC) : ");
         list.tampil();
 
+        list.selectionSort();
+        System.out.println("Data yang sudah terurut dengan Selection Sort (ASC) : ");
+        list.tampil();
+        
         sc.close();
     }
 }

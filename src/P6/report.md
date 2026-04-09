@@ -52,7 +52,12 @@ Hasilnya menunjukan program dapat dijalankan
 
 ![Screenshot](image/praktikum3.png)
 
-## Jawaban dari pertanyaan praktikum ke-1
-1. 
+## Jawaban dari pertanyaan praktikum ke-3
+1. Baris program tersebut digunakan untuk mencari indeks elemen dengan nilai paling kecil pada bagian array yang belum terurut.
 
 ---
+
+## Hasil Running Praktikum ke-4
+Hasilnya menunjukan program dapat dijalankan
+
+![Screenshot](image/praktikum4.png)
