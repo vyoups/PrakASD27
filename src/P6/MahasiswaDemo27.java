@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class MahasiswaDemo27 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        MahasiswaBerprestasi27 list = new MahasiswaBerprestasi27();
 
-        // System.out.print("Masukkan jumlah mahasiswa: ");
-        // int jumlah = sc.nextInt();
-        // sc.nextLine();
-        int jumMhs = 5;
+        System.out.print("Masukkan jumlah mahasiswa: ");
+        int jumlah = sc.nextInt();
+        sc.nextLine();
 
-        for (int i = 1; i <= jumMhs; i++) {
+        MahasiswaBerprestasi27 list = new MahasiswaBerprestasi27(jumlah); 
+
+        for (int i = 1; i <= jumlah; i++) {
             System.out.println("--- Mahasiswa ke-" + i + " ---");
             System.out.print("NIM   : ");
             String nim = sc.nextLine();
@@ -21,8 +21,9 @@ public class MahasiswaDemo27 {
             System.out.print("Kelas : ");
             String kelas = sc.nextLine();
             System.out.print("IPK   : ");
-            double ipk = sc.nextDouble();
-            sc.nextLine();
+            String ip = sc.nextLine();
+            double ipk = Double.parseDouble(ip);
+            // sc.nextLine(); ← DIHAPUS
 
             list.tambah(new Mahasiswa27(nim, nama, kelas, ipk));
         }
@@ -51,7 +52,7 @@ public class MahasiswaDemo27 {
         System.out.println("--------------------");
         System.out.println("Menggunakan Binary Search");
         System.out.println("---------------------");
-        double posisi2 = list.findBinarySearch(cari, 0, jumMhs - 1);
+        double posisi2 = list.findBinarySearch(cari, 0, jumlah - 1);
         int pss2= (int)posisi2;
         list.tampilPosisi(cari, pss2);
         list.tampilDataSearch(cari, pss2);
