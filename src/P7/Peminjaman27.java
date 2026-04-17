@@ -20,7 +20,11 @@ public class Peminjaman27 {
         if (lamaPinjam > batasPinjam) {
             terlambat = lamaPinjam - batasPinjam;
             denda = terlambat * 2000;
-        } else {
+            if(buku.tahunTerbit <= 2020){ // untuk kondisi buku lama, denda dikurangi 50%
+                denda = (int) (denda * 0.5); 
+            }
+        }
+        else {
             terlambat = 0;
             denda = 0;
         }

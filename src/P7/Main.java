@@ -37,6 +37,7 @@ public class Main {
             System.out.println("3. Tampilkan Peminjaman");
             System.out.println("4. Urutkan Berdasarkan Denda");
             System.out.println("5. Cari Berdasarkan NIM");
+            System.out.println("6. Update lama pinjam");//untuk update lama pinjam berdasarkan NIM
             System.out.println("0. Keluar");
             System.out.print("Pilih: ");
             pilih = sc.nextInt();
@@ -91,6 +92,26 @@ public class Main {
                                 break;
                             }
                         }
+                    }
+                    break;
+
+                case 6: // Update lama pinjam berdasarkan NIM
+                    System.out.print("Masukkan NIM: ");
+                    String nimUpdate = sc.next();
+                    System.out.print("Masukkan lama pinjam baru: ");
+                    int lamaPinjamBaru = sc.nextInt();
+                    System.out.println();
+
+                    for (Peminjaman27 p : dataPeminjaman) {
+                        if (p.mhs.nim.equals(nimUpdate)) {
+                            p.lamaPinjam = lamaPinjamBaru;
+                            p.hitungDenda();
+                            System.out.println("Data peminjaman berhasil diperbarui.");
+                            break;
+                        }
+                    }
+                    for (Peminjaman27 p : dataPeminjaman) {
+                        p.tampilPeminjaman();
                     }
                     break;
 
