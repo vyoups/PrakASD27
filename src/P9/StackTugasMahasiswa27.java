@@ -62,4 +62,8 @@ public class StackTugasMahasiswa27 {
         }
         System.out.println("");
     }
+
+    public int hitungTugas(){
+        return top + 1;
+    }
 }

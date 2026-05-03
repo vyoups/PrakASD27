@@ -13,6 +13,7 @@ public class MahasiswaDemo27 {
             System.out.println("2. Menilai tugas");
             System.out.println("3. Melihat tugas teratas");
             System.out.println("4. Melihat Daftar Tugas");
+            System.out.println("5. Hitung Jumlah Tugas");
             System.out.print("Pilih: ");
             pilih = sc.nextInt();
             sc.nextLine();
@@ -49,6 +50,10 @@ public class MahasiswaDemo27 {
                     System.out.println("Daftar Tugas:");
                     System.out.println("Nama\tNIM\tKelas");
                     stack.print();
+                    break;
+                case 5:
+                    int jumlahTugas = stack.hitungTugas();
+                    System.out.printf("Jumlah tugas yang telah dikumpulkan: %d%n", jumlahTugas);
                     break;
                 default:
                     System.out.println("Pilihan tidak valid");
