@@ -137,3 +137,213 @@ Jumlah dalam antrian: 1
 Pilih menu: 0
 Terima kasih.
 ```
+
+## Hasil dari tugas
+```
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 1
+NIM   : 123
+Nama  : Aldi
+Prodi : TI
+Kelas : 1A
+Aldi berhasil masuk ke antrian. Posisi antrian: 1
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 1
+NIM   : 125
+Nama  : Bobi
+Prodi : TI
+Kelas : 1B
+Bobi berhasil masuk ke antrian. Posisi antrian: 2
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 1
+NIM   : 125
+Nama  : Riska
+Prodi : AB
+Kelas : 1C
+Riska berhasil masuk ke antrian. Posisi antrian: 3
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 3
+Daftar Antrian KRS:
+NIM - NAMA - PRODI - KELAS
+1. 123 - Aldi - TI - 1A
+2. 125 - Bobi - TI - 1B
+3. 125 - Riska - AB - 1C
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 4
+2 Mahasiswa Terdepan dalam Antrian:
+NIM - NAMA - PRODI - KELAS
+1. 123 - Aldi - TI - 1A
+2. 125 - Bobi - TI - 1B
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 5
+Mahasiswa paling akhir dalam antrian:
+125 - Riska - AB - 1C
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 2
+=== Memanggil antrian untuk proses KRS ===
+Mahasiswa 1: 123 - Aldi - TI - 1A
+Mahasiswa 2: 125 - Bobi - TI - 1B
+Total yang sudah proses KRS: 2
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 6
+Jumlah antrian saat ini: 1
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 7
+Jumlah yang sudah proses KRS: 2
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 8
+Jumlah yang belum proses KRS: 1
+Sisa kuota DPA: 28
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 9
+Antrian berhasil dikosongkan.
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 8
+Jumlah yang belum proses KRS: 0
+Sisa kuota DPA: 28
+
+=== Menu Antrian Persetujuan KRS ===
+1. Tambah Mahasiswa ke Antrian
+2. Panggil Antrian untuk Proses KRS (2 mahasiswa)
+3. Tampilkan Semua Antrian
+4. Tampilkan 2 Antrian Terdepan
+5. Tampilkan Antrian Paling Akhir
+6. Jumlah Antrian Saat Ini
+7. Jumlah yang Sudah Proses KRS
+8. Jumlah yang Belum Proses KRS
+9. Kosongkan Antrian
+0. Keluar
+Pilih menu: 0
+Terima kasih
+```
