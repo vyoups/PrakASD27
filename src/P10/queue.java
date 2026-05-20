@@ -64,7 +64,8 @@ public class queue {
 
     public void enqueue(int dt){
         if(isFull()){
-            System.out.println("Queue sudah penuh");
+            System.out.println("Queue sudah penuh, program keluar");
+            System.exit(1);
         } else {
             if (isEmpty()){
                 front = rear = 0;
@@ -83,7 +84,8 @@ public class queue {
     public int dequeue(){
         int dt = 0;
         if (isEmpty()){
-            System.out.println("Queue masih kosong");
+            System.out.println("Queue masih kosong, program keluar");
+            System.exit(1);
         }else{
             dt = data[front];
             size--;
