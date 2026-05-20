@@ -53,4 +53,87 @@ Elemen terdepan: 15
 ---
 
 ## Hasil dari praktikum ke-2
-## Jawaban dari pertanyaan praktikum ke-2
+```
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 1
+NIM   : 123
+Nama  : Aldi
+Prodi : TI
+Kelas : 1A
+Aldi berhasil masuk ke antrian.
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 1
+NIM   : 124
+Nama  : Bobi
+Prodi : TI      
+Kelas : 1G
+Bobi berhasil masuk ke antrian.
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 4
+Daftar Mahasiswa dalam Antrian:
+NIM - NAMA - PRODI - KELAS
+1. 123 - Aldi - TI - 1A
+2. 124 - Bobi - TI - 1G
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 2
+Melayani mahasiswa: 123 - Aldi - TI - 1A
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 4
+Daftar Mahasiswa dalam Antrian:
+NIM - NAMA - PRODI - KELAS
+1. 124 - Bobi - TI - 1G
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 5
+Jumlah dalam antrian: 1
+
+=== Menu Antrian Layanan Akademik ===
+1. Tambah Mahasiswa ke Antrian
+2. Layani Mahasiswa
+3. Lihat Mahasiswa Terdepan
+4. Lihat Semua Antrian
+5. Jumlah Mahasiswa dalam Antrian
+0. Keluar
+Pilih menu: 0
+Terima kasih.
+```
