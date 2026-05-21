@@ -80,7 +80,7 @@ public class DoubleLinkList27 {
             head.prev = null;
         }
 
-        // System.out.println("Data awal berhasil dihapus");
+        System.out.println("Data awal berhasil dihapus");
     }
 
     public void removeLast() {
@@ -93,7 +93,7 @@ public class DoubleLinkList27 {
             tail.next = null;
         }
 
-        // System.out.println("Data akhir berhasil dihapus");
+        System.out.println("Data akhir berhasil dihapus");
     }
 
     public void print() {
