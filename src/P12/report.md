@@ -80,4 +80,51 @@ Program selesai
 4. Karena saat linked list masih kosong dan hanya memiliki satu node, maka node tersebut menjadi node pertama sekaligus node terakhir. Oleh karena itu, head dan tail harus menunjuk ke node yang sama agar linked list dapat dikenali dengan benar.
 ---
 
-##
+## Hasil Running Dari Praktikum ke-2 
+```
+==== MENU DOUBLE LINKED LIST =====
+1. Tambah Data di Awal
+2. Tambah Data di Akhir
+3. Tambah Data Setelah NIM tertentu
+4. Hapus Data Awal
+5. Hapus Data Akhir
+6. Tampilkan Data
+7. Tampilkan Reverse
+0. Keluar
+Pilihan : 5
+Data akhir berhasil dihapus
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah Data di Awal
+2. Tambah Data di Akhir
+3. Tambah Data Setelah NIM tertentu
+4. Hapus Data Awal
+5. Hapus Data Akhir
+6. Tampilkan Data
+7. Tampilkan Reverse
+0. Keluar
+Pilihan : 6
+NIM   : 123005
+Nama  : Harry
+Kelas : 1A
+IPK   : 3.76
+
+===== MENU DOUBLE LINKED LIST =====
+1. Tambah Data di Awal
+2. Tambah Data di Akhir
+3. Tambah Data Setelah NIM tertentu
+4. Hapus Data Awal
+5. Hapus Data Akhir
+6. Tampilkan Data
+7. Tampilkan Reverse
+0. Keluar
+Pilihan : 0
+Program selesai
+```
+
+## Jawaban dari pertanyaan praktikum ke-2
+1. - Statement head = head.next; digunakan untuk memindahkan posisi head ke node berikutnya setelah node pertama dihapus. Dengan demikian, node kedua akan menjadi node pertama yang baru pada linked list.
+
+- Sedangkan statement head.prev = null; digunakan untuk menghapus hubungan antara node baru dengan node lama yang sebelumnya berada di depan. Hal ini dilakukan agar node pertama yang sudah dihapus tidak lagi terhubung dengan linked list.
+---
+2. 
