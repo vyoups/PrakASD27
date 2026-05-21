@@ -98,7 +98,7 @@ public class DoubleLinkList27 {
 
     public void print() {
         if (isEmpty()) {
-            // System.out.println("List kosong");
+            System.out.println("List kosong");
             return;
         }
 
