@@ -48,3 +48,205 @@ Bimon      23212201     2B    3.8
 ---
 2. - temp.next = temp.next.next → ini yang "menghapus" node target. Node sebelumnya (temp) langsung nyambung ke node dua langkah depan, sehingga node target tidak bisa diakses lagi (ter-skip). 
 - if (temp.next == null) { tail = temp; } → setelah skip, kalau ternyata temp sekarang jadi node terakhir (next-nya null), maka tail harus diupdate ke temp. Ini penting supaya tail selalu nunjuk ke node paling belakang.
+
+## Hasil Running Tugas
+```
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 1
+NIM    : 123
+Nama   : Riska
+Kelas  : 1C
+IPK    : 2.9
+Mahasiswa Riska berhasil masuk antrian.
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 1
+NIM    : 124
+Nama   : Rifat
+Kelas  : 1F
+IPK    : 3.6
+Mahasiswa Rifat berhasil masuk antrian.
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 3
+=== Daftar Antrian ===
+1. Riska      123          1C    2.9
+2. Rifat      124          1F    3.6
+Total: 2 mahasiswa
+
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 4
+Antrian terdepan: Riska      123          1C    2.9
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 5
+Antrian paling akhir: Rifat      124          1F    3.6
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 6
+Jumlah antrian: 2
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 7
+Antrian tidak kosong.
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 8
+Antrian belum penuh.
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 2
+Memanggil: 
+Riska      123          1C    2.9
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 3
+=== Daftar Antrian ===
+1. Rifat      124          1F    3.6
+Total: 1 mahasiswa
+
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 9
+Antrian berhasil dikosongkan.
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 3
+Antrian kosong.
+
+=== Sistem Antrian Unit Kemahasiswaan ===
+1. Daftar Antrian
+2. Panggil Antrian
+3. Tampilkan Semua Antrian
+4. Cek Antrian Terdepan
+5. Cek Antrian Terakhir
+6. Cek Jumlah Antrian
+7. Cek Antrian Kosong
+8. Cek Antrian Penuh
+9. Kosongkan Antrian
+0. Keluar
+Pilihan: 0
+Keluar.
+
+```
