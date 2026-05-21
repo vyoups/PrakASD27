@@ -127,4 +127,3 @@ Program selesai
 
 - Sedangkan statement head.prev = null; digunakan untuk menghapus hubungan antara node baru dengan node lama yang sebelumnya berada di depan. Hal ini dilakukan agar node pertama yang sudah dihapus tidak lagi terhubung dengan linked list.
 ---
-2. 

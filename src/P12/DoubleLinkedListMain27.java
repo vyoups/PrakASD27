@@ -34,12 +34,18 @@ public class DoubleLinkedListMain27 {
             System.out.println("1. Tambah Data di Awal");
             System.out.println("2. Tambah Data di Akhir");
             System.out.println("3. Tambah Data Setelah NIM tertentu");
-            System.out.println("4. Hapus Data Awal");
-            System.out.println("5. Hapus Data Akhir");
-            System.out.println("6. Tampilkan Data");
-            System.out.println("7. Tampilkan Reverse"); 
+            System.out.println("4. Tambah Data pada Index");
+            System.out.println("5. Hapus Data Awal");
+            System.out.println("6. Hapus Data Akhir");
+            System.out.println("7. Hapus Data Setelah NIM tertentu");
+            System.out.println("8. Hapus Data pada Index");
+            System.out.println("9. Tampilkan Data");
+            System.out.println("10. Tampilkan Reverse");
+            System.out.println("11. Tampilkan Node Pertama");
+            System.out.println("12. Tampilkan Node Terakhir");
+            System.out.println("13. Tampilkan Data Berdasarkan Index");
+            System.out.println("14. Jumlah Data");
             System.out.println("0. Keluar");
-
             System.out.print("Pilihan : ");
             pilihan = scan.nextInt();
             scan.nextLine();
@@ -61,25 +67,70 @@ public class DoubleLinkedListMain27 {
                     String keyNim = scan.nextLine();
 
                     System.out.println("Masukkan data baru");
-                    Mahasiswa27 data = inputMahasiswa(scan);
+                    Mahasiswa27 dataAfter = inputMahasiswa(scan);
 
-                    list.insertAfter(keyNim, data);
+                    list.insertAfter(keyNim, dataAfter);
                     break;
 
                 case 4:
-                    list.removeFirst();
+                    System.out.print("Masukkan index : ");
+                    int addIndex = scan.nextInt();
+                    scan.nextLine();
+
+                    Mahasiswa27 dataIndex = inputMahasiswa(scan);
+
+                    list.add(addIndex, dataIndex);
                     break;
 
                 case 5:
-                    list.removeLast();
+                    list.removeFirst();
                     break;
 
                 case 6:
-                    list.print();
+                    list.removeLast();
                     break;
 
                 case 7:
+                    System.out.print("Masukkan NIM : ");
+                    String removeAfterNim = scan.nextLine();
+
+                    list.removeAfter(removeAfterNim);
+                    break;
+
+                case 8:
+                    System.out.print("Masukkan index yang ingin dihapus : ");
+                    int removeIndex = scan.nextInt();
+                    scan.nextLine();
+
+                    list.remove(removeIndex);
+                    break;
+
+                case 9:
+                    list.print();
+                    break;
+
+                case 10:
                     list.printReverse();
+                    break;
+
+                case 11:
+                    list.getFirst();
+                    break;
+
+                case 12:
+                    list.getLast();
+                    break;
+
+                case 13:
+                    System.out.print("Masukkan index : ");
+                    int cariIndex = scan.nextInt();
+                    scan.nextLine();
+
+                    list.getIndex(cariIndex);
+                    break;
+
+                case 14:
+                    System.out.println("Jumlah data : " + list.size());
                     break;
 
                 case 0:
