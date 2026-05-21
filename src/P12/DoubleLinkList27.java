@@ -110,17 +110,17 @@ public class DoubleLinkList27 {
         }
     }
 
-    // public void printReverse() {
-    //     if (isEmpty()) {
-    //         System.out.println("List kosong");
-    //         return;
-    //     }
+    public void printReverse() {
+        if (isEmpty()) {
+            System.out.println("List kosong");
+            return;
+        }
 
-    //     Node27 current = tail;
+        Node27 current = tail;
 
-    //     while (current != null) {
-    //         current.data.tampil();
-    //         current = current.prev;
-    //     }
-    // }
+        while (current != null) {
+            current.data.tampil();
+            current = current.prev;
+        }
+    }
 }

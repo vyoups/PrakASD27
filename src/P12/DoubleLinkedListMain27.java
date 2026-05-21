@@ -37,7 +37,7 @@ public class DoubleLinkedListMain27 {
             System.out.println("4. Hapus Data Awal");
             System.out.println("5. Hapus Data Akhir");
             System.out.println("6. Tampilkan Data");
-            // System.out.println("7. Tampilkan Reverse");
+            System.out.println("7. Tampilkan Reverse"); 
             System.out.println("0. Keluar");
 
             System.out.print("Pilihan : ");
@@ -78,9 +78,9 @@ public class DoubleLinkedListMain27 {
                     list.print();
                     break;
 
-                // case 7:
-                //     list.printReverse();
-                //     break;
+                case 7:
+                    list.printReverse();
+                    break;
 
                 case 0:
                     System.out.println("Program selesai");
