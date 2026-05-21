@@ -1,27 +1,22 @@
 package P11;
 
+import java.util.Scanner;
+
 public class SLLMain {
     public static void main(String[] args) {
         SingleLinkedList27 sll = new SingleLinkedList27();
+        Scanner sc = new Scanner(System.in);
 
-        Mahasiswa27 mhs1 = new Mahasiswa27("24212200", "Alvaro", "1A", 4.0);
-        Mahasiswa27 mhs2 = new Mahasiswa27("22212202", "Cintia", "3C", 3.5);
-        Mahasiswa27 mhs3 = new Mahasiswa27("23212201", "Bimon",  "2B", 3.8);
-        Mahasiswa27 mhs4 = new Mahasiswa27("21212203", "Dirga",  "4D", 3.6);
+        for (int i = 1; i <= 4; i++) {
+            System.out.println("-- Mahasiswa ke-" + i + " --");
+            System.out.print("NIM   : "); String nim  = sc.nextLine();
+            System.out.print("Nama  : "); String nama = sc.nextLine();
+            System.out.print("Kelas : "); String kls  = sc.nextLine();
+            System.out.print("IPK   : "); double ipk  = sc.nextDouble(); sc.nextLine();
+            sll.addLast(new Mahasiswa27(nim, nama, kls, ipk));
+        }
 
         sll.print();
-        sll.addFirst(mhs4);
-        sll.print();
-        sll.addLast(mhs1);
-        sll.print();
-        sll.insertAfter("Dirga", mhs3);
-        sll.insertAt(2, mhs2);
-        sll.print();
-
-        sll.removeFirst();
-        sll.removeLast();
-        sll.print();
-        sll.removeAt(0);
-        sll.print();
+        sc.close();
     }
 }
