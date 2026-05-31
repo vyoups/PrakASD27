@@ -38,5 +38,21 @@ public class BinaryTreeMain27 {
         bst.delete(3.57);
         System.out.println("\nDaftar semua mahasiswa setelah penghapusan 1 mahasiswa (in order traversal):");
         bst.traverseInOrder(bst.root);
+
+        BinaryTreeArray27 bta = new BinaryTreeArray27();
+        Mahasiswa27 mhs1 = new Mahasiswa27("244160121", "Ali",    "A", 3.57);
+        Mahasiswa27 mhs2 = new Mahasiswa27("244160221", "Badar",  "B", 3.85);
+        Mahasiswa27 mhs3 = new Mahasiswa27("244160185", "Candra", "C", 3.21);
+        Mahasiswa27 mhs4 = new Mahasiswa27("244160220", "Dewi",   "B", 3.54);
+        
+        Mahasiswa27 mhs5 = new Mahasiswa27("244160131", "Devi",  "A", 3.72);
+        Mahasiswa27 mhs6 = new Mahasiswa27("244160205", "Ehsan", "D", 3.37);
+        Mahasiswa27 mhs7 = new Mahasiswa27("244160170", "Fizi",  "B", 3.46);
+
+        Mahasiswa27[] dataMhs = {mhs1, mhs2, mhs3, mhs4, mhs5, mhs6, mhs7};
+        int idxLast = 6;
+        bta.populateData(dataMhs, idxLast);
+        System.out.println("\nInorder Traversal Mahasiswa:");
+        bta.traverseInOrder(0);
     }
 }

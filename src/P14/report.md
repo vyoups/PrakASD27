@@ -79,4 +79,26 @@ NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
 
 ## Hasil Running Praktikum ke-2
 ```
+Inorder Traversal Mahasiswa:
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.54
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.72
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160205 Nama: Ehsan Kelas: D IPK: 3.37
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.21
+NIM: 244160170 Nama: Fizi Kelas: B IPK: 3.46
 ```
+## Jawaban dari pertanyaan praktikum ke-1
+1. dataMahasiswa → array yang menyimpan semua node tree
+- idxLast → menyimpan indeks terakhir yang terisi, digunakan sebagai batas agar traversal tidak melewati data yang ada
+---
+2. Untuk mengisi array dataMahasiswa dan nilai idxLast dari luar class. Jadi data tree bisa dimasukkan sekaligus dari main() tanpa harus add satu per satu.
+---
+3. Untuk menampilkan semua data mahasiswa dalam tree secara terurut (kiri → root → kanan). Karena data di array disusun seperti struktur pohon, traversal inOrder menghasilkan urutan dari nilai terkecil ke terbesar.
+---
+4. Left = 5, Right = 6
+---
+5. Menandakan bahwa data terakhir yang valid ada di indeks 6. Jadi saat traversal, proses berhenti di indeks 6 dan tidak lanjut ke indeks 7, 8, 9 yang isinya null. Kalau tanpa ini, traversal bisa error karena mencoba akses data null.
+---
+6. Rumus standar untuk menemukan posisi child di binary tree berbasis array
+---
