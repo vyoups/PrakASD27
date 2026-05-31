@@ -5,54 +5,40 @@ public class BinaryTreeMain27 {
 
         BinaryTree27 bst = new BinaryTree27();
 
-        bst.add(new Mahasiswa27("244160121", "Ali",    "A", 3.57));
-        bst.add(new Mahasiswa27("244160221", "Badar",  "B", 3.85));
-        bst.add(new Mahasiswa27("244160185", "Candra", "C", 3.21));
-        bst.add(new Mahasiswa27("244160220", "Dewi",   "B", 3.54));
-
-        System.out.println("\nDaftar semua mahasiswa (in oder traversal):");
+        // Tugas 1: addRekursif
+        System.out.println("=== TUGAS 1: addRekursif ===");
+        bst.addRekursif(new Mahasiswa27("244160121", "Ali",    "A", 3.57));
+        bst.addRekursif(new Mahasiswa27("244160221", "Badar",  "B", 3.85));
+        bst.addRekursif(new Mahasiswa27("244160185", "Candra", "C", 3.21));
+        bst.addRekursif(new Mahasiswa27("244160220", "Dewi",   "B", 3.54));
+        bst.addRekursif(new Mahasiswa27("244160131", "Devi",   "A", 3.72));
+        bst.addRekursif(new Mahasiswa27("244160205", "Ehsan",  "D", 3.37));
+        bst.addRekursif(new Mahasiswa27("244160170", "Fizi",   "B", 3.46));
+        System.out.println("InOrder setelah addRekursif:");
         bst.traverseInOrder(bst.root);
 
-        System.out.println("\nPencarian data mahasiswa:");
-        System.out.print("Cari mahasiswa dengan ipk: 3.54 : ");
-        String hasilCari = bst.find(3.54) ? "Ditemukan" : "Tidak ditemukan";
-        System.out.println(hasilCari);
+        // Tugas 2: cariMinIPK & cariMaxIPK
+        System.out.println("\n=== TUGAS 2: cariMinIPK & cariMaxIPK ===");
+        bst.cariMinIPK();
+        bst.cariMaxIPK();
 
-        System.out.print("Cari mahasiswa dengan ipk: 3.22 : ");
-        hasilCari = bst.find(3.22) ? "Ditemukan" : "Tidak ditemukan";
-        System.out.println(hasilCari);
+        // Tugas 3: tampilMahasiswaIPKdiAtas
+        System.out.println("\n=== TUGAS 3: tampilMahasiswaIPKdiAtas ===");
+        bst.tampilMahasiswaIPKdiAtas(3.50);
 
-        bst.add(new Mahasiswa27("244160131", "Devi",  "A", 3.72));
-        bst.add(new Mahasiswa27("244160205", "Ehsan", "D", 3.37));
-        bst.add(new Mahasiswa27("244160170", "Fizi",  "B", 3.46));
-
-        System.out.println("\nDaftar semua mahasiswa setelah penambahan 3 mahasiswa:");
-        System.out.println("InOrder Traversal:");
-        bst.traverseInOrder(bst.root);
-        System.out.println("\nPreOrder Traversal:");
-        bst.traversePreOrder(bst.root);
-        System.out.println("\nPostOrder Traversal:");
-        bst.traversePostOrder(bst.root);
-
-        System.out.println("\nPenghapusan data mahasiswa");
-        bst.delete(3.57);
-        System.out.println("\nDaftar semua mahasiswa setelah penghapusan 1 mahasiswa (in order traversal):");
-        bst.traverseInOrder(bst.root);
-
+        // Tugas 4: BinaryTreeArray add & traversePreOrder
+        System.out.println("\n=== TUGAS 4: BinaryTreeArray add & traversePreOrder ===");
         BinaryTreeArray27 bta = new BinaryTreeArray27();
-        Mahasiswa27 mhs1 = new Mahasiswa27("244160121", "Ali",    "A", 3.57);
-        Mahasiswa27 mhs2 = new Mahasiswa27("244160221", "Badar",  "B", 3.85);
-        Mahasiswa27 mhs3 = new Mahasiswa27("244160185", "Candra", "C", 3.21);
-        Mahasiswa27 mhs4 = new Mahasiswa27("244160220", "Dewi",   "B", 3.54);
-        
-        Mahasiswa27 mhs5 = new Mahasiswa27("244160131", "Devi",  "A", 3.72);
-        Mahasiswa27 mhs6 = new Mahasiswa27("244160205", "Ehsan", "D", 3.37);
-        Mahasiswa27 mhs7 = new Mahasiswa27("244160170", "Fizi",  "B", 3.46);
-
-        Mahasiswa27[] dataMhs = {mhs1, mhs2, mhs3, mhs4, mhs5, mhs6, mhs7};
-        int idxLast = 6;
-        bta.populateData(dataMhs, idxLast);
-        System.out.println("\nInorder Traversal Mahasiswa:");
+        bta.add(new Mahasiswa27("244160121", "Ali",    "A", 3.57));
+        bta.add(new Mahasiswa27("244160185", "Candra", "C", 3.41));
+        bta.add(new Mahasiswa27("244160221", "Badar",  "B", 3.75));
+        bta.add(new Mahasiswa27("244160220", "Dewi",   "B", 3.35));
+        bta.add(new Mahasiswa27("244160131", "Devi",   "A", 3.48));
+        bta.add(new Mahasiswa27("244160205", "Ehsan",  "D", 3.61));
+        bta.add(new Mahasiswa27("244160170", "Fizi",   "B", 3.86));
+        System.out.println("PreOrder Traversal (Array):");
+        bta.traversePreOrder(0);
+        System.out.println("\nInOrder Traversal (Array):");
         bta.traverseInOrder(0);
     }
 }

@@ -102,3 +102,48 @@ NIM: 244160170 Nama: Fizi Kelas: B IPK: 3.46
 ---
 6. Rumus standar untuk menemukan posisi child di binary tree berbasis array
 ---
+
+## Hasil Running Tugas
+```
+=== TUGAS 1: addRekursif ===
+InOrder setelah addRekursif:
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.21
+NIM: 244160205 Nama: Ehsan Kelas: D IPK: 3.37
+NIM: 244160170 Nama: Fizi Kelas: B IPK: 3.46
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.54
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.72
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
+
+=== TUGAS 2: cariMinIPK & cariMaxIPK ===
+Mahasiswa dengan IPK terkecil:
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.21
+Mahasiswa dengan IPK terbesar:
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
+
+=== TUGAS 3: tampilMahasiswaIPKdiAtas ===
+Mahasiswa dengan IPK di atas 3.5:
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.54
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.72
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.85
+
+=== TUGAS 4: BinaryTreeArray add & traversePreOrder ===
+PreOrder Traversal (Array):
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.41
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.35
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.48
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.75
+NIM: 244160205 Nama: Ehsan Kelas: D IPK: 3.61
+NIM: 244160170 Nama: Fizi Kelas: B IPK: 3.86
+
+InOrder Traversal (Array):
+NIM: 244160220 Nama: Dewi Kelas: B IPK: 3.35
+NIM: 244160185 Nama: Candra Kelas: C IPK: 3.41
+NIM: 244160131 Nama: Devi Kelas: A IPK: 3.48
+NIM: 244160121 Nama: Ali Kelas: A IPK: 3.57
+NIM: 244160205 Nama: Ehsan Kelas: D IPK: 3.61
+NIM: 244160221 Nama: Badar Kelas: B IPK: 3.75
+NIM: 244160170 Nama: Fizi Kelas: B IPK: 3.86
+```
