@@ -85,4 +85,8 @@ public class DaftarPesanan {
     public int getJumlah() {
         return jumlah;
     }
+    // Tambahan untuk akses head dari Main
+    public NodePesanan getHead() {
+        return head;
+    }
 }

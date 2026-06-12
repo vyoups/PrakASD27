@@ -20,6 +20,7 @@ public class Main {
             System.out.println("2. Cetak Antrian");
             System.out.println("3. Hapus Antrian dan Pesan");
             System.out.println("4. Laporan Pesanan");
+            System.out.println("5. Rekap Pesanan per Menu");
             System.out.println("0. Keluar");
             System.out.print("Pilih menu : ");
             pilihan = sc.nextInt();
@@ -37,6 +38,15 @@ public class Main {
                     break;
                 case 4:
                     pesanan.cetakLaporan();
+                    break;
+                case 5: // Rekap pesanan per menu
+                    LinkedListRekap rekap = new LinkedListRekap();
+                    NodePesanan curr = pesanan.getHead();
+                    while (curr != null) {
+                        rekap.updateRekap(curr.namaPesanan);
+                        curr = curr.next;
+                    }
+                    rekap.cetakRekap();
                     break;
                 case 0:
                     System.out.println("Terima kasih telah menggunakan Sistem Antrian Royal Delish!");
